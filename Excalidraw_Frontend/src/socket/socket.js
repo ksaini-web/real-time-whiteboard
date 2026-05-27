@@ -10,7 +10,7 @@ export function connectSocket(onMessageReceived) {
   if (stompClient && stompClient.active) return;
 
   stompClient = new Client({
-    webSocketFactory: () => new SockJS("http://localhost:8080/ws"),
+    webSocketFactory: () => new SockJS(""https://real-time-whiteboard-backend-1.onrender.com"/ws"),
     reconnectDelay: 5000,
 
     onConnect: () => {

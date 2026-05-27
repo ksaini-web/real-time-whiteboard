@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8080/api/boards";
+const API_URL = ""https://real-time-whiteboard-backend-1.onrender.com"/api/boards";
 
 function getAuthHeader() {
   const token = localStorage.getItem("token");

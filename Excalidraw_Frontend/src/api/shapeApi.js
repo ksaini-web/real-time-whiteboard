@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8080/api/shapes";
+const API_URL = ""https://real-time-whiteboard-backend-1.onrender.com"/api/shapes";
 
 function getAuthHeader() {
   const token = localStorage.getItem("token");
@@ -59,7 +59,7 @@ export async function clearBoardShapes(boardId) {
 // Undo
 export async function undoBoard(boardId) {
   await axios.post(
-    `http://localhost:8080/api/actions/undo/${boardId}`
+    `"https://real-time-whiteboard-backend-1.onrender.com"/api/actions/undo/${boardId}`
     , getAuthHeader()
   );
 }
@@ -67,7 +67,7 @@ export async function undoBoard(boardId) {
 // Redo
 export async function redoBoard(boardId) {
   await axios.post(
-    `http://localhost:8080/api/actions/redo/${boardId}`
+    `"https://real-time-whiteboard-backend-1.onrender.com"/api/actions/redo/${boardId}`
     , getAuthHeader()
   );
 }
@@ -75,7 +75,7 @@ export async function redoBoard(boardId) {
 // Load chat
 export async function getMessagesByBoard(boardId) {
   const response = await axios.get(
-    `http://localhost:8080/api/chat/${boardId}`,
+    `"https://real-time-whiteboard-backend-1.onrender.com"/api/chat/${boardId}`,
      getAuthHeader()
   );
 

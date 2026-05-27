@@ -25,7 +25,7 @@ function CreateBoard() {
 
   try {
     const response = await axios.post(
-      "http://localhost:8080/api/boards",
+      ""https://real-time-whiteboard-backend-1.onrender.com"/api/boards",
       {
         title,
         userId: user.id,

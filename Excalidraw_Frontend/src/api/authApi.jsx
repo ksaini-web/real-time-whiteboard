@@ -6,7 +6,7 @@ import axios from "axios";
 export async function signup(data) {
 
   const response = await axios.post(
-    `http://localhost:8080/auth/signup`,
+    `"https://real-time-whiteboard-backend-1.onrender.com"/auth/signup`,
     data
 
   );
@@ -22,7 +22,7 @@ export async function login(data)
 {
 
   const response = await axios.post(
-    `http://localhost:8080/auth/login`,
+    `"https://real-time-whiteboard-backend-1.onrender.com"/auth/login`,
     data
   );
 
