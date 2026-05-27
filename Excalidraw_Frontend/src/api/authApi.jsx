@@ -1,31 +1,21 @@
 import axios from "axios";
 
+const BASE = import.meta.env.VITE_BACKEND_URL || "http://localhost:8080";
 
-// Signup api
-
+// Signup
 export async function signup(data) {
-
   const response = await axios.post(
-    `"https://real-time-whiteboard-backend-1.onrender.com"/auth/signup`,
+    `${BASE}/api/auth/signup`,
     data
-
   );
-
   return response.data;
-  
 }
 
-//Login 
-
-
-export async function login(data) 
-{
-
+// Login
+export async function login(data) {
   const response = await axios.post(
-    `"https://real-time-whiteboard-backend-1.onrender.com"/auth/login`,
+    `${BASE}/api/auth/login`,
     data
   );
-
   return response.data;
-  
 }
