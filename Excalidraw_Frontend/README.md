@@ -93,7 +93,7 @@ Add project screenshots in this section to show the main user flows.
 
 ### Login Page
 
-![Login Page](https://placehold.co/1200x700?text=Login+Page)
+![Login Page](public/screenShots/Login.png)
 
 ### Signup Page
 
@@ -101,7 +101,7 @@ Add project screenshots in this section to show the main user flows.
 
 ### Dashboard
 
-![Dashboard](https://placehold.co/1200x700?text=Dashboard)
+![Dashboard](public/screenShots/Dashboard.png)
 
 ### Whiteboard
 
@@ -113,9 +113,43 @@ Add project screenshots in this section to show the main user flows.
 
 ### Invitation System
 
-![Invitation System](https://placehold.co/1200x700?text=Invitation+System)
+![Invitation System](public/screenShots/Invitation.png)
 
 ## Installation Steps
+
+# Role-Based Access Control
+
+![ Role](public/screenShots/Roles.png)
+
+The application supports three different user roles to ensure secure and controlled collaboration.
+
+![ Role-Based Access](public/screenShots/RoleBasedAccess.png)
+
+## Owner
+
+![Create boards](public/screenShots/CreateBoard.png)
+
+* Invite users through email
+![ Invite users through email](public/screenShots/InviteByEmail.png)
+
+* Delete boards
+* Enable or disable chat
+* Manage board permissions
+* Full board access
+
+![Full board access](public/screenShots/OwnerFullAccess.png)
+
+## Editor
+* Draw and edit shapes
+* Collaborate in real time
+* Send chat messages
+* Modify board content
+
+## Viewer
+* View board activity
+* Participate in chat
+* Cannot edit drawings
+* Read-only board access
 
 Before running the frontend locally, make sure the following tools are installed:
 
