@@ -97,7 +97,7 @@ Add project screenshots in this section to show the main user flows.
 
 ### Signup Page
 
-![Signup Page](https://placehold.co/1200x700?text=Signup+Page)
+![Signup Page](public/screenShots/SignUp.png)
 
 ### Dashboard
 
